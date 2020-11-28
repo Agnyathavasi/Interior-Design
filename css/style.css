@@ -1,0 +1,439 @@
+
+/*
+font-family: 'Sacramento', cursive;
+font-family: 'Montserrat', sans-serif;
+Primary Color : #d5ac63
+Background Color :
+*/
+
+nav {
+	background-color: #d5ac63;
+	box-shadow: 0 0 10px rgba(0,0,0,0.10);
+
+}
+
+nav div {
+  margin-left: 1em;
+  margin-right: 1em;
+
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+
+nav .navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+nav .nav-item {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+
+#carouselExampleControls {
+  text-align: center;
+}
+
+.section-1 {
+  background-image: linear-gradient(rgba(10, 10, 10, 0.9),rgba(10, 10, 10, 0.9)),url('http://st.ourhtmldemo.com/new/interrio/images/services/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.section-1 h1 {
+  font-size: 5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 1.0em;
+}
+
+.section-1 h6 {
+  font-size: 1.3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-top: 1.6em;
+}
+
+.section-1 .container-fluid {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.section-1 h1 #col-o {
+  color: #d5ac63;
+}
+
+.section-1 .row {
+  padding-bottom: 1.1em;
+  margin-bottom: 0em;
+}
+
+.section-1 #left {
+  margin-top: 14%;
+  margin-bottom: 0em;
+}
+
+.section-1 #right {
+  margin-top: 8%;
+	margin-bottom: 3em;
+}
+
+.section-1 #durwar {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 0.5em;
+	padding-bottom: 1.5em;
+}
+
+.section-1 #durwar #dur {
+  margin-top: 1em;
+}
+
+.section-1 #durwar #war {
+  margin-top: 1em;
+}
+
+.section-1 #durwar h5 {
+  margin-top: 0.5em;
+  font-weight: 800;
+  color: #fff;
+}
+
+.section-1 #durwar span {
+  font-weight: 500;
+  color: #888;
+}
+
+.section-2 {
+  padding-top: 2em;
+	margin-bottom: 3.9em;
+}
+
+.section-2 h1 {
+  border-left: 4px solid #d5ac63;
+  margin-left: 2em;
+	margin-top: 1.3em;
+  padding-left: 1.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-bottom: 1.5em;
+	border-bottom: 4px solid #fff;
+}
+
+.section-2 h1:hover {
+	border-bottom: 4px solid #d5ac63;
+	transition-property: border-bottom;
+	transition-duration: 0.2s;
+}
+
+@media screen and (max-width: 700px) {
+  .section-2 h1 {
+    margin-left: 0.6em;
+    padding-left: 0.8em;
+  }
+}
+
+.section-2 .container .row .col-md-4 {
+  background-color: #ccc;
+  padding: 14em 0em 0.5em 0em;
+  text-align: center;
+  border: 1em solid #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5em;
+}
+
+.section-2 .container .row .col-md-4 h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.section-2 .container .row .col-md-4:hover {
+  transform: scale(1.07);
+  transition-property: transform;
+  transition-duration: 0.7s;
+  transform-style: flat;
+}
+
+.section-2 .container .row #blue-int {
+  color:#151e3d;
+  text-shadow: 1px 1px 0.3em #fff;
+  background-image: url('https://www.roomsketcher.com/wp-content/uploads/2015/12/RoomSketcher-Living-Room-Ideas-Dark-Blue-Wall-Color-Corner-Sofa.jpg');
+}
+
+.section-2 .container .row #red-int {
+  color:#841508;
+  text-shadow: 1px 1px 0.3em #fff;
+  background-image: url('https://i.pinimg.com/564x/8a/30/50/8a305001e85690d365ba2670dbeb0a88.jpg');
+}
+
+.section-2 .container .row #white-int {
+  color:#c1beb7;
+  text-shadow: 1px 1px 0.3em #000;
+  background-image: url('https://www.bocadolobo.com/en/inspiration-and-ideas/wp-content/uploads/2018/01/home-decor-6.jpg');
+}
+
+.section-2 .container .row #black-int {
+  color:#000;
+  text-shadow: 1px 1px 0.3em #D4D4D4;
+  background-image: url('https://roohome.com/wp-content/uploads/2016/06/open-layout-interior-with-shelf-dividers-768x461.jpg');
+}
+
+.section-2 .container .row #grey-int {
+  color:grey;
+  text-shadow: 1px 1px 0.2em #000;
+  background-image: url('https://cdn.home-designing.com/wp-content/uploads/2018/01/Black-bookcase.jpg');
+}
+
+.section-2 .container .row #teal-int {
+  color:#008080;
+  text-shadow: 1px 1px 0.3em #000;
+  background-image: url('http://cdn.home-designing.com/wp-content/uploads/2018/03/Teal-kitchen-decor.jpg');
+}
+
+.section-2 .container .row #yellow-int {
+  color:#fce205;
+  text-shadow: 1px 1px 0.3em #000;
+  background-image: url('https://cdn.home-designing.com/wp-content/uploads/2012/01/20-Yellow-Living-Room.jpg');
+}
+
+.section-2 .container .row #green-int {
+  color:#3cb043;
+  text-shadow: 1px 1px 0.3em #000;
+  background-image: url('https://cdn.home-designing.com/wp-content/uploads/2018/05/Cozy-Small-Green-Livingroom-From-Ikea.jpg');
+}
+
+.section-2 .container .row #magenta-int {
+  color:#a1045a;
+  text-shadow: 1px 1px 0.3em #fff;
+  background-image: url('https://i.pinimg.com/originals/f2/01/8c/f2018cbad4f1f72b8ef1de6cdec3c530.jpg');
+}
+
+.section-2 .container .row #pink-int {
+  color:#fbaed2;
+  text-shadow: 1px 1px 0.3em #000;
+  background-image: url('https://media.designcafe.com/wp-content/uploads/2020/03/21014558/pink-colour-rooms-for-your-home.jpg');
+}
+
+.section-2 .container .row #orange-int {
+  color:#fc6a03;
+  text-shadow: 1px 1px 0.3em #000;
+  background-image: url('https://i.pinimg.com/originals/27/57/d3/2757d37e13aa5c9a0a70b1abc1bfc70d.jpg');
+}
+
+.section-2 .container .row #choclate-int {
+  color:#2e1503;
+  text-shadow: 1px 1px 0.3em #fff;
+  background-image: url('https://www.ofdesign.net/wp-content/uploads/files/3/5/9/living-ideas-interior-design-room-modern-brown-23-359.jpg');
+}
+
+.working-area{
+  padding-top: 50px;
+  padding-bottom: 50px;
+	background-image: linear-gradient(rgba(10, 10, 10, 0.9),rgba(10, 10, 10, 0.9)),url('http://st.ourhtmldemo.com/new/interrio/images/customers/bg.jpg');
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
+}
+.working-area .container p{
+	font-size: 18px;
+  line-height: 1.7em;
+	color: #fff;
+	margin-bottom: 2em;
+	text-align: center;
+}
+.working-area .sec-title {
+	color: #fff;
+}
+.working-area .sec-title h2 {
+	border-left: 4px solid #d5ac63;
+  margin-left: 2em;
+	margin-top: 1.3em;
+  padding-left: 1.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-bottom: 1.2em;
+	font-size: 2.5em;
+	text-align: left;
+}
+@media screen and (max-width:769px) {
+	.working-area .sec-title h2 {
+		margin-left: 0.6em;
+		padding-left: 0.8em;
+	}
+}
+.working-area .sec-title h2 {
+	margin-left: 0.6em;
+	padding-left: 0.8em;
+}
+.working-area .sec-title p {
+  font-size: 18px;
+  line-height: 32px;
+  margin: 16px 0 0px;
+	color: #fff;
+	padding-left: 10em;
+	padding-right: 10em;
+	padding-bottom: 4em;
+}
+.working-area .single-working-item {
+  padding-bottom: 40px;
+}
+.working-area .single-working-item .icon-box {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #f7f7f7;
+  border-radius: 50%;
+  display: block;
+  height: 180px;
+  padding: 9px;
+  position: relative;
+  width: 180px;
+  margin: 0 auto;
+  transition: all 500ms ease;
+}
+
+.working-area .single-working-item .icon-box .icon {
+  background: rgb(200, 200, 200) none repeat scroll 0 0;
+  border-radius: 50%;
+  display: block;
+  height: 160px;
+  width: 160px;
+  text-align: center;
+  line-height: 160px;
+  color: #d5ac63;
+  font-size: 50px;
+  transition: all 500ms ease;
+}
+.working-area .single-working-item .icon-box .icon span:before{
+  font-size: 50px;
+	margin: auto auto;
+}
+.working-area .single-working-item .icon-box .count {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #f7f7f7;
+  border-radius: 50%;
+  display: block;
+  height: 45px;
+  left: 5px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 45px;
+  transition: all 500ms ease;
+}
+.working-area .single-working-item .icon-box .count h3 {
+  color: #000;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  transition: all 500ms ease;
+}
+
+.working-area .single-working-item .text-box h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 21px 0 9px;
+}
+.working-area .single-working-item .text-box p {
+  margin: 0;
+	color: #fff;
+}
+.working-area .single-working-item:hover .icon-box{
+  background: #d5ac63;
+}
+.working-area .single-working-item:hover .icon-box .count{
+  background: #d5ac63;
+}
+.working-area .single-working-item:hover .icon-box .count h3{
+  color: #fff;
+}
+
+.achievement-area {
+	background-image: url(../img/achievement.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+}
+
+.achievement-area .overlay {
+	background-color: #252531e6;
+}
+
+.single-counter-box {
+	text-align: center;
+}
+
+.achievement-area .service-icon i:before {
+	font-size: 40px;
+	color: #DFB163;
+}
+
+.single-counter-box .counter-number span {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+	letter-spacing: 1px;
+	color: #000;
+	margin: 40px 0 20px;
+}
+
+.single-counter-box p.counter-number {
+	font-size: 40px;
+	color: #000;
+}
+
+.single-counter-box h6 {
+	color: #000;
+}
+
+#style-2.achievement-area {
+	background-image: none;
+	height: 250px;
+}
+
+#style-2 .single-counter-box h6 {
+	color: #333;
+}
+
+#style-2 .single-counter-box .counter-number span {
+	font-family: 'Teko', sans-serif;
+	font-size: 70px;
+	letter-spacing: 1px;
+	color: #DFB163;
+	margin: 35px 0 15px;
+}
+
+#style-2 .single-counter-box p.counter-number {
+	font-size: 60px;
+	color: #DFB163;
+}

@@ -1,0 +1,190 @@
+.section-1 {
+  background-image: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.9)), url('https://p0.pikrepo.com/preview/327/375/plant-pot-brown-wooden-table.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.section-2 h1 {
+  border-left: 4px solid #d5ac63;
+  margin-left: 2em;
+  padding-left: 1.2em;
+  padding-top: 0.2em;
+  margin-top: 1.7em;
+  padding-bottom: 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-bottom: 1.8em;
+  border-bottom: 4px solid #fff;
+}
+
+.section-2 h1:hover {
+  border-bottom: 4px solid #d5ac63;
+  transition-property: border-bottom;
+  transition-duration: 0.2s;
+}
+
+@media screen and (max-width: 700px) {
+  .section-2 h1 {
+    margin-left: 0.6em;
+    padding-left: 0.8em;
+  }
+}
+
+.section-2 .container .col-md-4 {
+  text-align: center;
+}
+
+.section-2 .container .col-md-4 h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-top: 1em;
+  padding: 0.2em;
+  text-align: left;
+}
+
+.section-2 .container .col-md-4 img {
+  padding: 0.5em;
+}
+
+.section-2 .container .col-md-4 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-bottom: 4.5em;
+  padding: 0.4em;
+  text-align: left;
+}
+
+.section-3 {
+  background-image: linear-gradient(rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9)), url('http://st.ourhtmldemo.com/new/interrio/images/slides/2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.section-3 .verticalspace {
+  height: 0.5em;
+}
+
+.section-3 h1 {
+  border-left: 4px solid #d5ac63;
+  margin-left: 2em;
+  padding-left: 1.2em;
+  padding-top: 0.2em;
+  margin-top: 1.7em;
+  padding-bottom: 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-bottom: 1.8em;
+}
+
+@media screen and (max-width: 700px) {
+  .section-3 h1 {
+    margin-left: 0.6em;
+    padding-left: 0.8em;
+  }
+}
+
+.section-3 h1:hover {
+  border-bottom: 4px solid #d5ac63;
+  transition-property: border-bottom;
+  margin-bottom: 1.7em;
+}
+
+.section-3 .row {
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+.section-3 .row .col-md-4 {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.section-3 .row h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #eaeaea;
+  margin-top: 0.8em;
+}
+
+.section-3 .row h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #d5ac63;
+}
+
+.section-3 p {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 3.8em;
+  margin-top: 3em;
+}
+
+.section-4 {
+  padding-bottom: 4em;
+}
+
+.section-4 .col-sm-6 {
+  text-align: left;
+  padding: 1em;
+}
+
+@media screen and (max-width: 992px) {
+  .section-4 .col-sm-6 {
+    text-align: center;
+  }
+}
+
+.section-4 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin: 2.5em 0 0em 0;
+  line-height: 2em;
+  padding-bottom: 2px;
+}
+
+.section-4 h1 span {
+  font-family: 'Sacramento', cursive;
+  font-weight: 800;
+  font-size: 1.3em;
+}
+
+.section-4 .single-item img {
+  padding: 15px;
+  background-color: #d5ac63;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gap {
+  width: 5em;
+  height: 4px;
+  background-color: #d5ac63;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4.5em;
+}
+
+.section-4 .single-item .col-md-10 h3 {
+  padding: 5px 5px 0 5px;
+  font-size: 1.4em;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.section-4 .single-item .col-md-10 p {
+  padding: 8.5px;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}

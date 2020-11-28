@@ -1,0 +1,68 @@
+.section-1 {
+    background-image: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.9)), url('https://www.iiad.edu.in/wp-content/uploads/2018/08/image001.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+  }
+
+  .section-2 {
+    background-color: #292929;
+    padding-bottom: 2em;
+  }
+
+  .section-2 .container {
+    padding: 3em;
+  }
+
+  .section-2 h1 {
+    border-left: 4px solid #d5ac63;
+    margin-left: 2em;
+    padding-left: 1.5em;
+    padding-top: 0.7em;
+    color: #fff;
+    padding-bottom: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    border-bottom: 4px solid #292929;
+  }
+  
+  .section-2 h1:hover {
+    border-bottom: 4px solid #d5ac63;
+    transition-property: border-bottom;
+    transition-duration: 0.2s;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .section-2 h1 {
+      margin-left: 0.6em;
+      padding-left: 0.8em;
+    }
+  }  
+
+  .carousel-item .item {
+    padding: 2em;
+    text-align: center;
+  }
+
+  .message {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    color: bisque;
+  }
+
+  .name {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    color: chocolate;
+  }
