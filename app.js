@@ -7,7 +7,7 @@ var Register = require('./models/register');
 
 app.set('view engine', 'ejs');
 
-mongoose.connect( 'mongodb+srv://admin-isva:vishabhi@cluster0.hfzzy.mongodb.net/Interior_Design',
+mongoose.connect( 'MongoDB url from mongoshell',
     {
         useNewUrlParser:true,
         useCreateIndex:true,
